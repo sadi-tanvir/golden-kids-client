@@ -29,7 +29,7 @@ const Banner = () => {
 
 
     return (
-        <div className='container mx-auto -500 h-[500px] my-10 px-3 sm:px-0'>
+        <div className='container mx-auto -500 h-[600px] my-10 px-3 sm:px-0'>
             <Swiper
                 modules={[Navigation, Pagination, Scrollbar, EffectFade, A11y]}
                 spaceBetween={50}
@@ -43,12 +43,20 @@ const Banner = () => {
                 {
                     photos.map((photo) => (
                         <SwiperSlide>
-                            <img
-                                key={photo.id}
-                                className='h-full w-full'
-                                src={photo.link}
-                                alt="image"
-                            />
+                            <div className='h-full grid grid-cols-1 sm:grid-cols-3'>
+                                <img
+                                    key={photo.id}
+                                    className='w-full h-full rounded-xl opacity-85 sm:col-span-2'
+                                    src={photo.link}
+                                    alt="image"
+                                />
+                                <div className='flex flex-col pt-5 sm:pt-36 px-3'>
+                                    <h1 className='text-2xl font-bold text-slate-600 mb-2'>About This Organization</h1>
+                                    <p className='text-slate-600'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad debitis enim odio beatae! Expedita aliquid repudiandae ullam optio unde accusamus saepe eligendi, hic vitae qui facilis tempora explicabo est illum.</p>
+
+                                    <a href="#" className='text-start mt-3 text-blue-600'>read more</a>
+                                </div>
+                            </div>
                         </SwiperSlide>
                     ))
                 }
