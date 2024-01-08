@@ -52,7 +52,7 @@ const Banner = () => {
                                 />
                                 <div className='flex flex-col pt-5 sm:pt-36 px-3'>
                                     <h1 className='text-2xl font-bold text-slate-600 mb-2'>About This Organization</h1>
-                                    <p className='text-slate-600'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad debitis enim odio beatae! Expedita aliquid repudiandae ullam optio unde accusamus saepe eligendi, hic vitae qui facilis tempora explicabo est illum.</p>
+                                    <p className='text-slate-600'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad debitis enim odio beatae! Expedita aliquid repudiandae ullam optio unde accusamus saepe eligendi, hic vitae qui facilis tempora explicabo est illum illum.</p>
 
                                     <a href="#" className='text-start mt-3 text-blue-600'>read more</a>
                                 </div>
