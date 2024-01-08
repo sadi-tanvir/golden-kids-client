@@ -4,7 +4,7 @@ import { MdOutlineMail } from "react-icons/md";
 const Contact = () => {
     const user = null;
     return (
-       <div className="bg-primary opacity-80 text-white">
+       <div className="bg-primary text-white">
          <div className="mx-3 md:mx-8 lg:max-w-7xl lg:mx-auto flex justify-between py-2">
             {/* phone number and email part */}
            <div className="md:flex gap-5">
