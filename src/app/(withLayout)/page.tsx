@@ -1,8 +1,9 @@
+import Banner from "../shared/home/Banner";
 
 const Home = () => {
     return (
-        <div>
-            <h1>This is home page</h1>
+        <div className='w-screen'>
+            <Banner></Banner>
         </div>
     );
 };
