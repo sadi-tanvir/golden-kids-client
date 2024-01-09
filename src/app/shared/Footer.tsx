@@ -1,3 +1,4 @@
+
 import { FaAdjust, FaAlgolia,FaFacebookF  ,FaInstagram  } from "react-icons/fa";
 import { IoLocation } from "react-icons/io5";
 import { IoMdCall } from "react-icons/io";
@@ -5,6 +6,7 @@ import { CgMail } from "react-icons/cg";
 import { IoLogoYoutube } from "react-icons/io";
 
 import { AiFillInstagram } from "react-icons/ai";
+
 const Footer = () => {
     return (
         <div className="bg-[#4512b6] ">
