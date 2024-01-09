@@ -14,28 +14,28 @@ const Banner = () => {
             id: 1,
             link: 'https://th.bing.com/th/id/R.7af50c605c253277149e5cfeb2a04fe7?rik=xV3L4%2bb%2b9Mk78Q&pid=ImgRaw&r=0',
             title: 'About This Organization',
-            description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad debitis enim odio beatae! Expedita aliquid repudiandae ullam optio unde accusamus saepe eligendi, hic vitae qui facilis tempora explicabo est illum illum illum.',
+            description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad debitis enim odio beatae! Expedita aliquid repudiandae ullam optio unde accusamus saepe eligendi, hic vitae qui facilis tempora explicabo est illum.',
             externalLink: '#'
         },
         {
             id: 2,
             link: 'https://i2.wp.com/techbeasts.com/wp-content/uploads/2016/01/green_mountain_nature_wallpaper_hd.jpg',
             title: 'About This Organization',
-            description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad debitis enim odio beatae! Expedita aliquid repudiandae ullam optio unde accusamus saepe eligendi, hic vitae qui facilis tempora explicabo est illum illum illum.',
+            description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad debitis enim odio beatae! Expedita aliquid repudiandae ullam optio unde accusamus saepe eligendi, hic vitae qui facilis tempora explicabo est illum.',
             externalLink: '#'
         },
         {
             id: 3,
             link: 'https://th.bing.com/th/id/OIP.Z3iF66QpQVHe8HkLPj-RggHaEo?rs=1&pid=ImgDetMain',
             title: 'About This Organization',
-            description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad debitis enim odio beatae! Expedita aliquid repudiandae ullam optio unde accusamus saepe eligendi, hic vitae qui facilis tempora explicabo est illum illum illum.',
+            description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad debitis enim odio beatae! Expedita aliquid repudiandae ullam optio unde accusamus saepe eligendi, hic vitae qui facilis tempora explicabo est illum.',
             externalLink: '#'
         },
         {
             id: 4,
             link: 'https://th.bing.com/th/id/OIP.E4IJcali_762Oo_vNhhbFgHaEK?rs=1&pid=ImgDetMain',
             title: 'About This Organization',
-            description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad debitis enim odio beatae! Expedita aliquid repudiandae ullam optio unde accusamus saepe eligendi, hic vitae qui facilis tempora explicabo est illum illum illum.',
+            description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad debitis enim odio beatae! Expedita aliquid repudiandae ullam optio unde accusamus saepe eligendi, hic vitae qui facilis tempora explicabo est illum.',
             externalLink: '#'
         },
     ]
