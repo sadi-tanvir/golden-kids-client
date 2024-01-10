@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import { FaPhoneAlt,FaFacebookF, FaTwitter,FaGooglePlusG,FaUser } from "react-icons/fa";
 import { MdOutlineMail } from "react-icons/md";
