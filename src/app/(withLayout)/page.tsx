@@ -1,5 +1,6 @@
 import Service from "@/Components/Service";
 import Banner from "../shared/home/Banner";
+import Curriculum from "../shared/home/Curriculum";
 
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <Service></Service>
+            <Curriculum></Curriculum>
         </div>
     );
 };
