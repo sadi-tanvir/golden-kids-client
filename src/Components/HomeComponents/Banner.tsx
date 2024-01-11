@@ -6,10 +6,10 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { A11y, Navigation, Pagination } from 'swiper/modules';
 import Image from 'next/image';
-import Banner1 from "../../../../public/images/banner/banner1.jpeg";
-import Banner2 from "../../../../public/images/banner/banner2.jpeg";
-import Banner3 from "../../../../public/images/banner/banner3.jpeg";
-import Banner4 from "../../../../public/images/banner/banner4.jpeg";
+import Banner1 from "../../../public/images/banner/banner1.jpeg";
+import Banner2 from "../../../public/images/banner/banner2.jpeg";
+import Banner3 from "../../../public/images/banner/banner3.jpeg";
+import Banner4 from "../../../public/images/banner/banner4.jpeg";
 
 const Banner = () => {
     const photos = [

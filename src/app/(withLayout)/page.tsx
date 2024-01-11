@@ -1,6 +1,6 @@
-import Service from "@/Components/Service";
-import Banner from "../shared/home/Banner";
-import Curriculum from "../shared/home/Curriculum";
+import Banner from "@/Components/HomeComponents/Banner";
+import Curriculum from "@/Components/HomeComponents/Curriculum";
+import Service from "@/Components/HomeComponents/Service";
 
 
 const Home = () => {
