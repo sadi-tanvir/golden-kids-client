@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 
 
@@ -8,6 +9,7 @@ const Navbar = () => {
     <li><Link href={"/page"}>Page</Link></li>
     <li><Link href={"/about"}>About</Link></li>
     <li><Link href={"/contact"}>Contact</Link></li>
+    <li><Link href={"/news"}>News</Link></li>
      
     </>
     return (

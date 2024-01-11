@@ -1,8 +1,12 @@
+import Service from "@/Components/HomeComponents/Service";
+import Banner from "../../Components/HomeComponents/Banner";
+
 
 const Home = () => {
     return (
         <div>
-            <h1>This is home page</h1>
+            <Banner></Banner>
+            <Service></Service>
         </div>
     );
 };

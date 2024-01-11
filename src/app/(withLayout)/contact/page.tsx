@@ -12,7 +12,7 @@ import { LuFileJson } from "react-icons/lu";
 const ContactPage = () => {
   return (
     <div className="">
-      <div className="bg-secondary ps-3 md:ps-20 md:pt-20 md:pb-12 py-3">
+      <div className="bg-gradient-to-r from-blue-800 via-blue-600 to-blue-400 ps-3 md:ps-20 md:pt-20 md:pb-12 py-3">
         <h1 className="text-2xl md:text-5xl font-sans font-semibold  text-white">
           Contact
         </h1>
