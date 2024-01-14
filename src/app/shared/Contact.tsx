@@ -1,3 +1,4 @@
+
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
@@ -6,19 +7,19 @@ import { MdOutlineMail } from "react-icons/md";
 const Contact = () => {
     const user = null;
     return (
-       <div className="bg-primary text-white">
+       <div className="bg-secondary text-white">
          <div className="mx-3 md:mx-8 lg:max-w-7xl lg:mx-auto flex justify-between py-2">
             {/* phone number and email part */}
            <div className="md:flex gap-5">
             <div className="flex gap-2">
-                <div className="w-8 h-8 p-2  bg-black rounded-full">
-                <FaPhoneAlt style={{color: "white"}}/>
+                <div className="w-8 h-8 p-2  bg-white rounded-full">
+                <FaPhoneAlt style={{color: "blue"}}/>
                 </div>
                 <h4>Phone: +880 1234567890 </h4>
             </div>
             <div className="flex gap-2">
-                <div className="w-8 h-8 p-2  bg-black rounded-full">
-                <MdOutlineMail style={{color: "white"}}/>
+                <div className="w-8 h-8 p-2  bg-white rounded-full">
+                <MdOutlineMail style={{color: "blue"}}/>
                 </div>
                 <h4>Email: information@domai.com </h4>
             </div>
