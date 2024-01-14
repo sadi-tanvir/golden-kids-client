@@ -1,5 +1,6 @@
+import Banner from "@/Components/HomeComponents/Banner";
+import Curriculum from "@/Components/HomeComponents/Curriculum";
 import Service from "@/Components/HomeComponents/Service";
-import Banner from "../../Components/HomeComponents/Banner";
 
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <Service></Service>
+            <Curriculum></Curriculum>
         </div>
     );
 };
