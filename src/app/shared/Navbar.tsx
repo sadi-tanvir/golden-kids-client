@@ -3,33 +3,24 @@ import Link from "next/link";
 
 const Navbar = () => {
 
-    const navItems = <>
-    <li><Link  href={"/"}>Home</Link></li>
-    <li><Link href={"/cause"}>Causes</Link></li>
-    <li><Link href={"/page"}>Page</Link></li>
-    <li><Link href={"/about"}>About</Link></li>
-    <li><Link href={"/contact"}>Contact</Link></li>
-    <li><Link href={"/news"}>News</Link></li>
-     
-
   const navItems = (
     <>
       <li>
-        <Link href={"/"}>Home</Link>
+        <Link href="/">Home</Link>
       </li>
       <li>
-        <Link href={"/cause"}>Causes</Link>
+        <Link href="/cause">Causes</Link>
       </li>
       <li>
-        <Link href={"/page"}>Page</Link>
+        <Link href="/page">Page</Link>
       </li>
       <li>
-        <Link href={"/about"}>About</Link>
+        <Link href="/about">About</Link>
       </li>
       <li>
-        <Link href={"/news"}>News</Link>
+        <Link href="/news">News</Link>
       </li>
-main
+
     </>
   );
   return (
@@ -77,7 +68,7 @@ main
           <ul className="menu menu-horizontal px-1 font-bold ">{navItems}</ul>
         </div>
         <div className="navbar-end">
-          <Link href={"/donate"}>
+          <Link href="/donate">
             {" "}
             <button className="btn shadow-[0_9px_0_rgb(0,0,0)] hover:shadow-[0_4px_0px_rgb(0,0,0)] text-black bg-white ease-out hover:translate-y-1 transition-all rounded">
               {" "}
