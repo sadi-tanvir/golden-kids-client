@@ -6,8 +6,8 @@ const Navbar = () => {
   const navItems = <>
     <li><Link href={"/"}>Home</Link></li>
     <li><Link href={"/cause"}>Causes</Link></li>
-    <li><Link href={"/page"}>Page</Link></li>
     <li><Link href={"/about"}>About</Link></li>
+    <li><Link href={"/facilities"}>Facilities</Link></li>
     <li><Link href={"/contact"}>Contact</Link></li>
     <li><Link href={"/news"}>News</Link></li>
   </>
