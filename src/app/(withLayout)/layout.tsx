@@ -4,17 +4,14 @@ import Navbar from "../shared/Navbar";
 
 
 
-const MainLayout = ({children}:{ children: React.ReactNode }) => {
+const MainLayout = ({ children }: { children: React.ReactNode }) => {
     return (
-        <div>
-            
-           
-           <Contact></Contact>
+        <>
+            <Contact></Contact>
             <Navbar></Navbar>
-          
             {children}
             <Footer></Footer>
-        </div>
+        </>
     );
 };
 

@@ -14,7 +14,7 @@ const NotfoundPage = () => {
             <div className="flex justify-center">
                 <h1 className="text-3xl">404- Page Not Found</h1>
             </div>
-            <p className="text-center my-5">The page you are looking for might have been removed <br /> had it's name changed or is temporarily unavailable</p>
+            <p className="text-center my-5">The page you are looking for might have been removed <br /> had it&rsquo;s name changed or is temporarily unavailable</p>
             <div className="text-center text-white"><Link href="/"><button className="bg-[#4512b6] p-2 rounded">Go To HomePage</button></Link></div>
         </div>
         
